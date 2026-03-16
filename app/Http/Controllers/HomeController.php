@@ -15,6 +15,6 @@ class HomeController extends Controller
 
     public function __invoke ()
     {
-        return "Hola desde la pagina de inicio";
+        return view('welcome');
     }
 }
